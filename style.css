@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --light-color: #E0E0E0;
+    --dark-light-color: #c1c1c1;
+    --primary: #FCC822;
+    --secondary: #333333;
+}
+
+
+.navbar {
+    border-bottom: 1px solid var(--light-color);
+}
+
+ul li a {
+    font-family: "Roboto";
+    color: var(--dark-light-color) !important;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: var(--primary) !important;
+    transition: all 0.3s;
+}
+
+.login_btn {
+    font-family: "Poppins";
+    border: 2px solid var(--primary);
+    color: var(--primary) !important;
+    font-weight: 500;
+}
+
+.login_btn:hover {
+    color: #ffff !important;
+    background-color: var(--primary);
+    transition: all 0.5s;
+}
+
+.main_data_left {
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.main_data_left h1 {
+    font-family: "Roboto";
+    line-height: 45px;
+    /* font-size: 2.2rem; */
+}
+
+.para {
+    font-family: "Poppins";
+    color: var(--dark-light-color);
+    border-left: 2px solid var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.button_solving {
+    border: 2px solid var(--primary);
+    font-family: "Poppins";
+    background-color: var(--primary);
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+
+}
+.button_solving:hover{
+    border: 2px solid var(--primary);
+    color: var(--primary) !important;
+    transition: all ease-in-out 0.3s;   
+}
+
+.button_know{
+    color: var(--primary);
+    margin-left: 5px;
+}
+.button_know:hover i{
+    color: #000 !important;
+}
+.button_know i{
+    color: var(--primary);
+    margin-right: 5px;
+}
+
+
+.right img{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
